@@ -16,6 +16,9 @@
 		6CE77A252728B4C90092240D /* ejemplo_coreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE77A242728B4C90092240D /* ejemplo_coreTests.swift */; };
 		6CE77A2F2728B4C90092240D /* ejemplo_coreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE77A2E2728B4C90092240D /* ejemplo_coreUITests.swift */; };
 		6CE77A312728B4C90092240D /* ejemplo_coreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE77A302728B4C90092240D /* ejemplo_coreUITestsLaunchTests.swift */; };
+		6CE77A3F2728B4E30092240D /* Ejemplo_data_core.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6CE77A3D2728B4E30092240D /* Ejemplo_data_core.xcdatamodeld */; };
+		6CE77A412728B4F40092240D /* Extension_core_data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE77A402728B4F40092240D /* Extension_core_data.swift */; };
+		6CE77A452728B6B50092240D /* extensiones in Resources */ = {isa = PBXBuildFile; fileRef = 6CE77A442728B6B50092240D /* extensiones */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		6CE77A2A2728B4C90092240D /* ejemplo_coreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ejemplo_coreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE77A2E2728B4C90092240D /* ejemplo_coreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejemplo_coreUITests.swift; sourceTree = "<group>"; };
 		6CE77A302728B4C90092240D /* ejemplo_coreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ejemplo_coreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6CE77A3E2728B4E30092240D /* Ejemplo_data_core.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Ejemplo_data_core.xcdatamodel; sourceTree = "<group>"; };
+		6CE77A402728B4F40092240D /* Extension_core_data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extension_core_data.swift; sourceTree = "<group>"; };
+		6CE77A442728B6B50092240D /* extensiones */ = {isa = PBXFileReference; lastKnownFileType = folder; path = extensiones; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 		6CE77A0C2728B4C50092240D /* ejemplo_core */ = {
 			isa = PBXGroup;
 			children = (
+				6CE77A442728B6B50092240D /* extensiones */,
+				6CE77A402728B4F40092240D /* Extension_core_data.swift */,
+				6CE77A3D2728B4E30092240D /* Ejemplo_data_core.xcdatamodeld */,
 				6CE77A0D2728B4C50092240D /* AppDelegate.swift */,
 				6CE77A0F2728B4C50092240D /* SceneDelegate.swift */,
 				6CE77A112728B4C50092240D /* ViewController.swift */,
@@ -231,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE77A452728B6B50092240D /* extensiones in Resources */,
 				6CE77A1A2728B4C80092240D /* LaunchScreen.storyboard in Resources */,
 				6CE77A172728B4C80092240D /* Assets.xcassets in Resources */,
 				6CE77A152728B4C50092240D /* Main.storyboard in Resources */,
@@ -261,6 +271,8 @@
 				6CE77A122728B4C50092240D /* ViewController.swift in Sources */,
 				6CE77A0E2728B4C50092240D /* AppDelegate.swift in Sources */,
 				6CE77A102728B4C50092240D /* SceneDelegate.swift in Sources */,
+				6CE77A3F2728B4E30092240D /* Ejemplo_data_core.xcdatamodeld in Sources */,
+				6CE77A412728B4F40092240D /* Extension_core_data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -367,7 +379,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -422,7 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -624,6 +636,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6CE77A3D2728B4E30092240D /* Ejemplo_data_core.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6CE77A3E2728B4E30092240D /* Ejemplo_data_core.xcdatamodel */,
+			);
+			currentVersion = 6CE77A3E2728B4E30092240D /* Ejemplo_data_core.xcdatamodel */;
+			path = Ejemplo_data_core.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 6CE77A022728B4C50092240D /* Project object */;
 }
